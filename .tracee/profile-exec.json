@@ -2,7 +2,7 @@
   {
     "user_id": 1001,
     "process_name": "build-tests.tes",
-    "binary_path": "/tmp/go-build1753050238/b001/build-tests.test",
+    "binary_path": "/tmp/go-build3118179880/b001/build-tests.test",
     "binary_sha256": "1098369560ebef73dede606dd41223a2ed612e9339bf3a1c17f854e6a1dfe7c6",
     "process_args": [
       "-test.paniconexit0",
