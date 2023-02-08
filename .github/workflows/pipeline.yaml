@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
+      uses: aquasecurity/tracee-action@d8b5169d9802115f3779e90bd74cf3ede88b38c5
 
     - name: Verify dependencies
       run: go mod verify
