@@ -30,7 +30,7 @@ jobs:
         #uses: lhotari/action-upterm@v1
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@stop
+      uses: aquasecurity/tracee-action@75a18ea89f8005535e3baefe6dd0d3a9dcaa157a
       with:
         create-pr: "true"
         fail-on-diff: "true"
