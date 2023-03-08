@@ -26,6 +26,9 @@ jobs:
     - name: Fake upload
       uses: josedonizetti/upload-fake-action@v0.1.0
 
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
+
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@402c713c3a1258a495cf097891eb160a48c617ba
       with:
