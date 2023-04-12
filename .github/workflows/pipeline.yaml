@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: josedonizetti/tracee-action@34770395eb9d6e1a20a358a8a36fd62a76eac409
+      uses: josedonizetti/tracee-action@e65e8488b9cac80f8f72b24c8199d4d271c878e7
 
     - name: Verify dependencies
       run: go mod verify
