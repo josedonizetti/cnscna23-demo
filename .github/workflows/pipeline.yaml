@@ -16,7 +16,8 @@ jobs:
 
     - name: boom
       run: |
-        echo $(pgrep containerd-shim-runc-v2)
+        echo "boom"
+        pgrep containerd-shim-runc-v2
         ps aux | grep containerd-shim-runc-v2
 
     - name: Build
