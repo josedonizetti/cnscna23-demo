@@ -18,7 +18,7 @@ jobs:
       run: docker build -f Dockerfile -t test:tag . &
 
     - name: ps
-      run: for i in {1..10}; do ps aux; done
+      run: for i in {1..10}; do ps -efj; done
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@8d16edbf40c7c125e4da3e2e4e1bc22e63b55810
