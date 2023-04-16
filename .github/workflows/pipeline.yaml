@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@fd54f598f141a891da9cd764501fbfc4bceba2fd
+      uses: aquasecurity/tracee-action@376d6de5dfdb909d1d3c6a2a77f85a42551fc809
 
     - name: Build
       run: docker build -f Dockerfile -t test:tag . &
